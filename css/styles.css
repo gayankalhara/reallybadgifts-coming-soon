@@ -4,37 +4,11 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
-body.dark {
-	background: url(../img/ban2.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: 'Roboto', sans-serif;
-}
 body.light {
 	background-color: #0416ff;
 	font-family: 'Roboto', sans-serif;
 }
 
-.snow-canvas {
-	display: block;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	pointer-events: none;
-}
-body.space {
-	background: url(../images/ban5.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: 'Roboto', sans-serif;
-}
-body.space.bg-six {background: url(../images/banner6.jpg) no-repeat center center fixed;}
 * {
 	margin: 0px;
 	padding: 0px;
@@ -862,3 +836,11 @@ canvas{opacity: 0.5 ;}
    color:#333;  
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	.lightcounter ul.countdown_2 li span {
+	    font-size: 42px !important;
+	}
+}
