@@ -32,6 +32,9 @@ li {
 a {
 	text-decoration: none;
 }
+a.tos{
+	color: darkblue;
+}
 .clear {
 	clear: both;
 }
