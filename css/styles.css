@@ -105,7 +105,7 @@ a.tos{
 	float: left;
 	padding: 0;
 }
-.darkcounter ul.countdown li.day span.days { color:#333;} 
+.darkcounter ul.countdown li.day span.days { color:#333;}
 .counter ul.countdown .hour {
 	margin: 18px 0 6px 0;
 }
@@ -149,7 +149,7 @@ a.tos{
 	background: #fff;
 	margin: -55px -3px 0 0;
 	padding: 0px 14px 0px 14px;
-	height: 52px; 
+	height: 52px;
 	border: none;
 	float: right;
 	font-weight: 900;
@@ -178,12 +178,12 @@ a.tos{
 }
 
 .spacenotify  input[type=submit].yellow {
-    background:#f6f903 !important;	
+    background:#f6f903 !important;
 	}
 .spacenotify  input[type=submit].yellow:hover{
    background: #F26841 !important;
     color: #fff !important;
-	}	
+	}
 
 
 /* ==================================================
@@ -789,18 +789,18 @@ canvas{opacity: 0.5 ;}
     width: 96%;
     display: inline-block;
     padding: 8px 2%;
-	
+
 }
 
 #result .error {
 	border:1px solid  #900;
 	background:#DFA9A9;
 	color:#900;
-	font-size:16px; 
+	font-size:16px;
     width:96%;
     display: inline-block;
     padding:8px 2%;
-    margin: 0 0 12px 0;	
+    margin: 0 0 12px 0;
 }
 
 
@@ -811,15 +811,15 @@ canvas{opacity: 0.5 ;}
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color:#fff;  
+   color:#fff;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color:#fff;  
+   color:#fff;
 }
 
-:-ms-input-placeholder {  
-   color:#fff;  
+:-ms-input-placeholder {
+   color:#fff;
 }
 
 
@@ -828,21 +828,51 @@ canvas{opacity: 0.5 ;}
 }
 
 .darkcounter :-moz-placeholder { /* Firefox 18- */
-   color:#333;  
+   color:#333;
 }
 
 .darkcounter ::-moz-placeholder {  /* Firefox 19+ */
-   color:#333;  
+   color:#333;
 }
 
-.darkcounter :-ms-input-placeholder {  
-   color:#333;  
+.darkcounter :-ms-input-placeholder {
+   color:#333;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) { 
+/* ==================================================
+   11. TOS-1 wrap
+================================================== */
+#wrap{
+	width: 85%;
+	float: none;
+	margin: auto;
+}
+
+/* ==================================================
+   11. TOS-1 section styling
+================================================== */
+ .section-title{
+	 text-decoration: underline;
+
+ }
+ /* ==================================================
+    11. TOS-1 email <a> styling
+ ================================================== */
+  p a{
+	 color:#ffffff;
+ }
+ p a:hover{
+	 color:#cc0000;
+ }
+p a:visited{
+	color:#ffffff;
+ }
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
 	.lightcounter ul.countdown_2 li span {
 	    font-size: 42px !important;
 	}
