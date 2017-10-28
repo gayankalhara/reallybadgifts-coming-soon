@@ -847,3 +847,12 @@ and (orientation : portrait) {
 	    font-size: 42px !important;
 	}
 }
+
+
+/*=========================================
+	Terms and Conditions Page
+========================================*/
+.content-wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+}
