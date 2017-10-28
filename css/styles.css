@@ -40,13 +40,18 @@ a.tos{
 }
 .container {
 	margin: 0 auto;
-	padding: 0 24px;
+	padding: 0 24px;	
 }
 ::selection {
 	color: #fff;
 	background: #f6f903;
 }
-
+.content{
+	position: absolute;    
+    left: 400px;
+    transform: translateY(-50%);
+    top: 50%;
+}
 
 /* ==================================================
    1. Logo
@@ -58,7 +63,8 @@ a.tos{
 .logo img.logo {
 	position: relative;
 	z-index: 1;
-	width: 350px;
+	width: 350px;	
+	float:left;
 }
 
 
