@@ -848,6 +848,16 @@ and (orientation : portrait) {
 	}
 }
 
+/*=========================================
+	11. Success and Thanks for signing up
+========================================*/
+#wrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 
 /*=========================================
 	Terms and Conditions Page
