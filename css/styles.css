@@ -864,3 +864,11 @@ img.char-1{
     margin-right: 20px;
     top: -15px;
 }
+
+img.char-2{
+	position: relative;
+    z-index: 1;
+    width: 200px;
+    margin-right: 20px;
+    top: -10px;
+}
