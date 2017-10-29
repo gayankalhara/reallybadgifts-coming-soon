@@ -509,7 +509,7 @@ a.tos{
 }
 .lightcounter .lightnotify input[type=submit] {
 	background: #fff;
-	margin: 0px 0 0 -129px;
+	margin: 0px 0 0 -111px;
 	padding: 0px 20px 0px 20px;
 	height: 52px;
 	border: none;
@@ -529,6 +529,7 @@ a.tos{
 	transition-duration: 0.5s;
 	-webkit-transition-property: color, background-color;
 	transition-property: color, background-color;
+	top: -1px;
 }
 .lightcounter .lightnotify input[type=submit]:hover {
 	color: #000;
