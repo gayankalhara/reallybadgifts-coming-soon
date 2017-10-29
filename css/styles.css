@@ -872,3 +872,15 @@ img.char-2{
     margin-right: 20px;
     top: -10px;
 }
+
+/*========================================
+	Thanks For Signing Up Page
+========================================*/
+.thanks-wrapper{
+	min-height: 100%;
+    position: absolute;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
