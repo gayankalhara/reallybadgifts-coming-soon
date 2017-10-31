@@ -872,3 +872,13 @@ img.char-2{
     margin-right: 20px;
     top: -10px;
 }
+
+/*=========================================
+	UX - centered wrap
+========================================*/
+#wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
